@@ -1,0 +1,25 @@
+# gesture_config.yml
+holy:
+  action: exit
+stop:
+  action: key_press
+  key: playpause
+  cooldown: 2
+peace_inverted:
+  action: scroll
+  direction: up
+  amount: 25
+  cooldown: 1
+peace:
+  action: scroll
+  direction: down
+  amount: 25
+  cooldown: 1
+rock:
+  action: key_press
+  key: volumeup
+  cooldown: 1
+fist:
+  action: key_press
+  key: volumedown
+  cooldown: 1
